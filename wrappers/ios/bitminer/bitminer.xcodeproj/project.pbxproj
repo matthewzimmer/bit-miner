@@ -7,13 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33071578A0B91B88D396C78A /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716C76B6DEF2BA2C4C2C4 /* Profile.m */; };
-		330717F92A9B312399420B0D /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719070CD65AD01FD8638B /* StatSheet.m */; };
-		3307191AE3F65AD9353F2D35 /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719070CD65AD01FD8638B /* StatSheet.m */; };
-		33071C39D5FB4DF60450754F /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716C76B6DEF2BA2C4C2C4 /* Profile.m */; };
-		33071D7081ADA095BBB76AD5 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716767FE6BCC96173A1FD /* Block.m */; };
 		33071DDAD5DC86424362D376 /* bitminer-Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33071E4A7D47963E3841A0E3 /* bitminer-Settings.plist */; };
-		33071E10C4015195ED69266F /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716767FE6BCC96173A1FD /* Block.m */; };
 		C9B0DE96192921730097E2E5 /* Miner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE95192921730097E2E5 /* Miner.m */; };
 		C9B0DE97192921730097E2E5 /* Miner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE95192921730097E2E5 /* Miner.m */; };
 		C9B0DE9B192927CA0097E2E5 /* ApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE9A192927CA0097E2E5 /* ApiHelper.m */; };
@@ -25,6 +19,12 @@
 		C9B0DEAD19293CAA0097E2E5 /* UrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEAB19293CAA0097E2E5 /* UrlUtils.m */; };
 		C9B0DEB119294E650097E2E5 /* BMMinerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB019294E650097E2E5 /* BMMinerCell.m */; };
 		C9B0DEB219294E650097E2E5 /* BMMinerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB019294E650097E2E5 /* BMMinerCell.m */; };
+		C9B0DEBB1929649F0097E2E5 /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB61929649F0097E2E5 /* StatSheet.m */; };
+		C9B0DEBC1929649F0097E2E5 /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB61929649F0097E2E5 /* StatSheet.m */; };
+		C9B0DEBD1929649F0097E2E5 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB71929649F0097E2E5 /* Profile.m */; };
+		C9B0DEBE1929649F0097E2E5 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB71929649F0097E2E5 /* Profile.m */; };
+		C9B0DEBF1929649F0097E2E5 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEBA1929649F0097E2E5 /* Block.m */; };
+		C9B0DEC01929649F0097E2E5 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEBA1929649F0097E2E5 /* Block.m */; };
 		C9C0B4041929190C0010B775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4031929190C0010B775 /* Foundation.framework */; };
 		C9C0B4061929190C0010B775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4051929190C0010B775 /* CoreGraphics.framework */; };
 		C9C0B4081929190C0010B775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4071929190C0010B775 /* UIKit.framework */; };
@@ -52,13 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		330715619457E10AB1DA226D /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
-		330716767FE6BCC96173A1FD /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
-		330716C76B6DEF2BA2C4C2C4 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		330719070CD65AD01FD8638B /* StatSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatSheet.m; sourceTree = "<group>"; };
-		3307196C19A981E980CDD384 /* StatSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatSheet.h; sourceTree = "<group>"; };
 		33071E4A7D47963E3841A0E3 /* bitminer-Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = "bitminer-Settings.plist"; sourceTree = "<group>"; };
-		33071F0BA03CA30A59A7987F /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
 		9DABDAC89E8D4B8792E8A4A3 /* Pods-bitminer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitminer.xcconfig"; path = "Pods/Pods-bitminer.xcconfig"; sourceTree = "<group>"; };
 		C9B0DE94192921730097E2E5 /* Miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Miner.h; path = Models/Miner.h; sourceTree = "<group>"; };
 		C9B0DE95192921730097E2E5 /* Miner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Miner.m; path = Models/Miner.m; sourceTree = "<group>"; };
@@ -72,6 +66,12 @@
 		C9B0DEAF19294E650097E2E5 /* BMMinerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMMinerCell.h; path = Cells/BMMinerCell.h; sourceTree = "<group>"; };
 		C9B0DEB019294E650097E2E5 /* BMMinerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMMinerCell.m; path = Cells/BMMinerCell.m; sourceTree = "<group>"; };
 		C9B0DEB4192950370097E2E5 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		C9B0DEB51929649F0097E2E5 /* StatSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatSheet.h; path = Models/StatSheet.h; sourceTree = "<group>"; };
+		C9B0DEB61929649F0097E2E5 /* StatSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatSheet.m; path = Models/StatSheet.m; sourceTree = "<group>"; };
+		C9B0DEB71929649F0097E2E5 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Profile.m; path = Models/Profile.m; sourceTree = "<group>"; };
+		C9B0DEB81929649F0097E2E5 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profile.h; path = Models/Profile.h; sourceTree = "<group>"; };
+		C9B0DEB91929649F0097E2E5 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Block.h; path = Models/Block.h; sourceTree = "<group>"; };
+		C9B0DEBA1929649F0097E2E5 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Block.m; path = Models/Block.m; sourceTree = "<group>"; };
 		C9C0B4001929190C0010B775 /* bitminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C0B4031929190C0010B775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9C0B4051929190C0010B775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,14 +122,14 @@
 		C9B0DE98192921770097E2E5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C9B0DEB51929649F0097E2E5 /* StatSheet.h */,
+				C9B0DEB61929649F0097E2E5 /* StatSheet.m */,
+				C9B0DEB71929649F0097E2E5 /* Profile.m */,
+				C9B0DEB81929649F0097E2E5 /* Profile.h */,
+				C9B0DEB91929649F0097E2E5 /* Block.h */,
+				C9B0DEBA1929649F0097E2E5 /* Block.m */,
 				C9B0DE94192921730097E2E5 /* Miner.h */,
 				C9B0DE95192921730097E2E5 /* Miner.m */,
-				330716C76B6DEF2BA2C4C2C4 /* Profile.m */,
-				33071F0BA03CA30A59A7987F /* Profile.h */,
-				330716767FE6BCC96173A1FD /* Block.m */,
-				330715619457E10AB1DA226D /* Block.h */,
-				330719070CD65AD01FD8638B /* StatSheet.m */,
-				3307196C19A981E980CDD384 /* StatSheet.h */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -399,15 +399,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B0DE9B192927CA0097E2E5 /* ApiHelper.m in Sources */,
+				C9B0DEBF1929649F0097E2E5 /* Block.m in Sources */,
+				C9B0DEBD1929649F0097E2E5 /* Profile.m in Sources */,
 				C9C0B41A1929190C0010B775 /* BMMinersViewController.m in Sources */,
 				C9B0DE96192921730097E2E5 /* Miner.m in Sources */,
 				C9C0B4101929190C0010B775 /* main.m in Sources */,
 				C9C0B4141929190C0010B775 /* BMAppDelegate.m in Sources */,
-				33071C39D5FB4DF60450754F /* Profile.m in Sources */,
+				C9B0DEBB1929649F0097E2E5 /* StatSheet.m in Sources */,
 				C9B0DEB119294E650097E2E5 /* BMMinerCell.m in Sources */,
 				C9B0DEA219293ADC0097E2E5 /* ResourceProvider.m in Sources */,
-				33071E10C4015195ED69266F /* Block.m in Sources */,
-				330717F92A9B312399420B0D /* StatSheet.m in Sources */,
 				C9B0DEAC19293CAA0097E2E5 /* UrlUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,11 +419,11 @@
 				C9B0DE9C192927CA0097E2E5 /* ApiHelper.m in Sources */,
 				C9B0DEAD19293CAA0097E2E5 /* UrlUtils.m in Sources */,
 				C9C0B42F1929190C0010B775 /* bitminerTests.m in Sources */,
+				C9B0DEBC1929649F0097E2E5 /* StatSheet.m in Sources */,
 				C9B0DE97192921730097E2E5 /* Miner.m in Sources */,
-				33071578A0B91B88D396C78A /* Profile.m in Sources */,
-				33071D7081ADA095BBB76AD5 /* Block.m in Sources */,
+				C9B0DEBE1929649F0097E2E5 /* Profile.m in Sources */,
+				C9B0DEC01929649F0097E2E5 /* Block.m in Sources */,
 				C9B0DEB219294E650097E2E5 /* BMMinerCell.m in Sources */,
-				3307191AE3F65AD9353F2D35 /* StatSheet.m in Sources */,
 				C9B0DEA319293ADC0097E2E5 /* ResourceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
