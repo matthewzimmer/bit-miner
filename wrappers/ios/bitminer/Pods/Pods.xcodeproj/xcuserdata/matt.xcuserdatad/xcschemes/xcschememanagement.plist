@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-bitminer-MRCEnumerable.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-bitminer-Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-bitminer-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-bitminer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>07E7E1D080BE442DA23DFB7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C61B8C3E6EF4284B3BD2AF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B728ABDAD7BA423F88978BFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F58EB43E92A7465B91709629</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

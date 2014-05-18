@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  version: 1
+  hash: MyString
+  hash_prev_block: MyString
+  rewarded_transaction_fee: 1.5
+  rewarded_bitcoins: 1
+  mined_at: 2014-05-17 11:13:57
+  deleted_at: 2014-05-17 11:13:57
+
+two:
+  version: 1
+  hash: MyString
+  hash_prev_block: MyString
+  rewarded_transaction_fee: 1.5
+  rewarded_bitcoins: 1
+  mined_at: 2014-05-17 11:13:57
+  deleted_at: 2014-05-17 11:13:57

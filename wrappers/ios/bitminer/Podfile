@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "bitminer" do
+	pod 'MRCEnumerable',    		    '0.1.1'
+	pod 'SVProgressHUD',            	:head
+	pod 'Mantle',                   	'~> 1.5'
+end
+
+target "bitminerTests" do
+
+end
+

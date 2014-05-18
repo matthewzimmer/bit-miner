@@ -1,0 +1,39 @@
+%h1 Miners
+
+.about
+  Miners are individuals who run computer systems to repeatedly calculate hashes with the intention to create a successful block and earn coins from transaction
+  fees and new coins created with the block itself. The term references an analogy of gold miners who dig gold out of the ground and thus 'discover' new gold
+  that can be used to create new coins, with a similar kind of discovery occurring with a successful hash to create new Bitcoins.
+
+%br
+
+- if @miners.empty?
+  No miners to display.
+
+- else
+  %table
+    %tr
+      %th{width: 50}
+      %th Nickname
+      %th Blocks Mined
+      %th Bitcoins Mined
+      %th Transaction Fees
+      %th
+      %th
+      %th
+
+    - @miners.each do |miner|
+      %tr
+        %td= image_tag miner.profile.avatar.url(:thumb), { width: 50 }
+        %td= miner.profile.nickname
+        %td= miner.stat_sheet.blocks_mined
+        %td= number_to_currency(miner.stat_sheet.bitcoins_mined, unit: 'BTC', format: '%n %u')
+        %td= number_to_currency(miner.stat_sheet.total_transaction_fees)
+        %td= link_to 'Show', miner
+        %td= link_to 'Edit', edit_miner_path(miner)
+        %td= link_to 'Destroy', miner, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+%br
+
+= link_to 'New Miner', new_miner_path

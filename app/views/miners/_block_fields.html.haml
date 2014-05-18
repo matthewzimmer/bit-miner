@@ -1,0 +1,32 @@
+.h1 Blocks Mined
+.fieldset
+  .field
+    = f.label :magic_number
+    = f.text_field :magic_number, { disabled: true, maxlength: 10, placeholder: 'Indicates block origin network. Defaults to 0xD9B4BEF9.', style: 'width:150px;', value: '0xD9B4BEF9' }
+
+  .field
+    = f.label :mined_at
+    = f.text_field :mined_at, { disabled: true, maxlength: 50, value: DateTime.now.utc }
+
+  .field
+    = f.label :version
+    = f.text_field :version, { maxlength: 50 }
+
+  .field
+    = f.label 'Block Hash'
+    = f.text_field :hash_curr_block, { maxlength: 50 }
+
+  .field
+    = f.label 'Previous Block Hash'
+    = f.text_field :hash_prev_block, { maxlength: 50 }
+
+  .field
+    = f.label :rewarded_transaction_fee
+    = f.text_field :rewarded_transaction_fee, { maxlength: 50 }
+
+  .field
+    = f.label :rewarded_bitcoins
+    = f.text_field :rewarded_bitcoins, { maxlength: 50 }
+
+  = f.hidden_field :_destroy
+  = link_to '[remove block]', '#', class: 'remove_fields'

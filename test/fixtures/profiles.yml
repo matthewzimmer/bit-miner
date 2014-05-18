@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nickname: MyString
+  first_name: MyString
+  last_name: MyString
+  bio: MyString
+  is_public: false
+  reputation: 1
+
+two:
+  nickname: MyString
+  first_name: MyString
+  last_name: MyString
+  bio: MyString
+  is_public: false
+  reputation: 1

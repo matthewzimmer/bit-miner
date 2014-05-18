@@ -1,0 +1,59 @@
+%p#notice= notice
+
+%p
+  = image_tag @miner.profile.avatar.url(:thumb), { width: 50 }
+
+%p
+  %b Nickname:
+  = @miner.profile.nickname
+
+%p
+  %b Email:
+  = @miner.email
+
+%p
+  %b Full name:
+  = @miner.profile.full_name
+
+- unless @miner.profile.bio.nil? || @miner.profile.bio.empty?
+  %p
+    %b Bio:
+    = @miner.profile.bio
+
+%h4
+  Mining Stats
+
+.stat-sheet.container
+  .row
+    .span2
+      = @miner.stat_sheet.blocks_mined
+      blocks mined
+    .span2
+      = @miner.stat_sheet.time_between_blocks
+      minutes between blocks mined
+    .span2
+      = number_to_currency(@miner.stat_sheet.bitcoins_mined, unit: 'BTC', format: '%n %u')
+      Bitcoins mined
+    .span2
+      = number_to_currency(@miner.stat_sheet.total_transaction_fees)
+      total transaction fees rewarded
+    .span2
+      = @miner.stat_sheet.number_of_transactions
+      total number of transactions
+
+%h4
+  Mined Blocks
+
+- @miner.blocks.each do |block|
+  .block.container
+    .row
+      .span2
+        = block.hash_curr_block
+      .span2
+        = number_to_currency(block.rewarded_bitcoins, unit: 'BTC', format: '%n %u')
+      .span2
+        = number_to_currency(block.rewarded_transaction_fee)
+
+= link_to 'Edit', edit_miner_path(@miner)
+\|
+= link_to 'Back', miners_path

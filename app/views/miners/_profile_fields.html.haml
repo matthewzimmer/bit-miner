@@ -1,0 +1,26 @@
+
+.field
+  = f.label :nickname
+  = f.text_field :nickname, { maxlength: 50, style: 'width: 350px;', placeholder: 'A unique handle identifying you within the community.' }
+
+.field
+  = f.label :first_name
+  = f.text_field :first_name, { maxlength: 50, style: 'width: 350px;' }
+
+.field
+  = f.label :last_name
+  = f.text_field :last_name, { maxlength: 50, style: 'width: 350px;' }
+
+.field
+  = image_tag f.object.avatar.url(:original), { width: 30 }
+  %br
+  = f.file_field :avatar
+  %p Add an avatar to your profile.
+
+.field
+  = f.label :bio
+  = f.text_area :bio, { rows: 10, maxlength: 256, style: 'width: 350px;', placeholder: 'A brief description of yourself in 255 characters or less.' }
+
+.field
+  = f.label :public_key
+  = f.text_area :public_key, { rows: 20, maxlength: 512, style: 'width: 350px;', placeholder: 'Type "pbcopy < ~/.ssh/id_rsa.pub" in a terminal and paste that value here.' }

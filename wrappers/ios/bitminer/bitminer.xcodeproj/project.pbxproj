@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33071578A0B91B88D396C78A /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716C76B6DEF2BA2C4C2C4 /* Profile.m */; };
+		330717F92A9B312399420B0D /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719070CD65AD01FD8638B /* StatSheet.m */; };
+		3307191AE3F65AD9353F2D35 /* StatSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 330719070CD65AD01FD8638B /* StatSheet.m */; };
+		33071C39D5FB4DF60450754F /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716C76B6DEF2BA2C4C2C4 /* Profile.m */; };
+		33071D7081ADA095BBB76AD5 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716767FE6BCC96173A1FD /* Block.m */; };
+		33071DDAD5DC86424362D376 /* bitminer-Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33071E4A7D47963E3841A0E3 /* bitminer-Settings.plist */; };
+		33071E10C4015195ED69266F /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 330716767FE6BCC96173A1FD /* Block.m */; };
+		C9B0DE96192921730097E2E5 /* Miner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE95192921730097E2E5 /* Miner.m */; };
+		C9B0DE97192921730097E2E5 /* Miner.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE95192921730097E2E5 /* Miner.m */; };
+		C9B0DE9B192927CA0097E2E5 /* ApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE9A192927CA0097E2E5 /* ApiHelper.m */; };
+		C9B0DE9C192927CA0097E2E5 /* ApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DE9A192927CA0097E2E5 /* ApiHelper.m */; };
+		C9B0DE9F192929750097E2E5 /* libPods-bitminer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B0DE9E192929750097E2E5 /* libPods-bitminer.a */; };
+		C9B0DEA219293ADC0097E2E5 /* ResourceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEA119293ADC0097E2E5 /* ResourceProvider.m */; };
+		C9B0DEA319293ADC0097E2E5 /* ResourceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEA119293ADC0097E2E5 /* ResourceProvider.m */; };
+		C9B0DEAC19293CAA0097E2E5 /* UrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEAB19293CAA0097E2E5 /* UrlUtils.m */; };
+		C9B0DEAD19293CAA0097E2E5 /* UrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEAB19293CAA0097E2E5 /* UrlUtils.m */; };
+		C9B0DEB119294E650097E2E5 /* BMMinerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB019294E650097E2E5 /* BMMinerCell.m */; };
+		C9B0DEB219294E650097E2E5 /* BMMinerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B0DEB019294E650097E2E5 /* BMMinerCell.m */; };
+		C9C0B4041929190C0010B775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4031929190C0010B775 /* Foundation.framework */; };
+		C9C0B4061929190C0010B775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4051929190C0010B775 /* CoreGraphics.framework */; };
+		C9C0B4081929190C0010B775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4071929190C0010B775 /* UIKit.framework */; };
+		C9C0B40E1929190C0010B775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C0B40C1929190C0010B775 /* InfoPlist.strings */; };
+		C9C0B4101929190C0010B775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0B40F1929190C0010B775 /* main.m */; };
+		C9C0B4141929190C0010B775 /* BMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0B4131929190C0010B775 /* BMAppDelegate.m */; };
+		C9C0B4171929190C0010B775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C0B4151929190C0010B775 /* Main.storyboard */; };
+		C9C0B41A1929190C0010B775 /* BMMinersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0B4191929190C0010B775 /* BMMinersViewController.m */; };
+		C9C0B41C1929190C0010B775 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C0B41B1929190C0010B775 /* Images.xcassets */; };
+		C9C0B4231929190C0010B775 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4221929190C0010B775 /* XCTest.framework */; };
+		C9C0B4241929190C0010B775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4031929190C0010B775 /* Foundation.framework */; };
+		C9C0B4251929190C0010B775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C0B4071929190C0010B775 /* UIKit.framework */; };
+		C9C0B42D1929190C0010B775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C0B42B1929190C0010B775 /* InfoPlist.strings */; };
+		C9C0B42F1929190C0010B775 /* bitminerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C0B42E1929190C0010B775 /* bitminerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C0B4261929190C0010B775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C0B3F81929190C0010B775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C0B3FF1929190C0010B775;
+			remoteInfo = bitminer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330715619457E10AB1DA226D /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		330716767FE6BCC96173A1FD /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		330716C76B6DEF2BA2C4C2C4 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		330719070CD65AD01FD8638B /* StatSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatSheet.m; sourceTree = "<group>"; };
+		3307196C19A981E980CDD384 /* StatSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatSheet.h; sourceTree = "<group>"; };
+		33071E4A7D47963E3841A0E3 /* bitminer-Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = "bitminer-Settings.plist"; sourceTree = "<group>"; };
+		33071F0BA03CA30A59A7987F /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		9DABDAC89E8D4B8792E8A4A3 /* Pods-bitminer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitminer.xcconfig"; path = "Pods/Pods-bitminer.xcconfig"; sourceTree = "<group>"; };
+		C9B0DE94192921730097E2E5 /* Miner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Miner.h; path = Models/Miner.h; sourceTree = "<group>"; };
+		C9B0DE95192921730097E2E5 /* Miner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Miner.m; path = Models/Miner.m; sourceTree = "<group>"; };
+		C9B0DE99192927CA0097E2E5 /* ApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiHelper.h; path = Helpers/ApiHelper.h; sourceTree = "<group>"; };
+		C9B0DE9A192927CA0097E2E5 /* ApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiHelper.m; path = Helpers/ApiHelper.m; sourceTree = "<group>"; };
+		C9B0DE9E192929750097E2E5 /* libPods-bitminer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-bitminer.a"; path = "Pods/build/Debug-iphoneos/libPods-bitminer.a"; sourceTree = "<group>"; };
+		C9B0DEA019293ADC0097E2E5 /* ResourceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceProvider.h; path = Providers/ResourceProvider.h; sourceTree = "<group>"; };
+		C9B0DEA119293ADC0097E2E5 /* ResourceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceProvider.m; path = Providers/ResourceProvider.m; sourceTree = "<group>"; };
+		C9B0DEAA19293CAA0097E2E5 /* UrlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrlUtils.h; path = Utils/UrlUtils.h; sourceTree = "<group>"; };
+		C9B0DEAB19293CAA0097E2E5 /* UrlUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UrlUtils.m; path = Utils/UrlUtils.m; sourceTree = "<group>"; };
+		C9B0DEAF19294E650097E2E5 /* BMMinerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMMinerCell.h; path = Cells/BMMinerCell.h; sourceTree = "<group>"; };
+		C9B0DEB019294E650097E2E5 /* BMMinerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMMinerCell.m; path = Cells/BMMinerCell.m; sourceTree = "<group>"; };
+		C9B0DEB4192950370097E2E5 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		C9C0B4001929190C0010B775 /* bitminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0B4031929190C0010B775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C0B4051929190C0010B775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9C0B4071929190C0010B775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9C0B40B1929190C0010B775 /* bitminer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitminer-Info.plist"; sourceTree = "<group>"; };
+		C9C0B40D1929190C0010B775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C0B40F1929190C0010B775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C0B4111929190C0010B775 /* bitminer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitminer-Prefix.pch"; sourceTree = "<group>"; };
+		C9C0B4121929190C0010B775 /* BMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAppDelegate.h; sourceTree = "<group>"; };
+		C9C0B4131929190C0010B775 /* BMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAppDelegate.m; sourceTree = "<group>"; };
+		C9C0B4161929190C0010B775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9C0B4181929190C0010B775 /* BMMinersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMMinersViewController.h; sourceTree = "<group>"; };
+		C9C0B4191929190C0010B775 /* BMMinersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMMinersViewController.m; sourceTree = "<group>"; };
+		C9C0B41B1929190C0010B775 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9C0B4211929190C0010B775 /* bitminerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitminerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C0B4221929190C0010B775 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9C0B42A1929190C0010B775 /* bitminerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitminerTests-Info.plist"; sourceTree = "<group>"; };
+		C9C0B42C1929190C0010B775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C0B42E1929190C0010B775 /* bitminerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitminerTests.m; sourceTree = "<group>"; };
+		EB334F3723A24B468BDDF061 /* libPods-bitminer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bitminer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C0B3FD1929190C0010B775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B0DE9F192929750097E2E5 /* libPods-bitminer.a in Frameworks */,
+				C9C0B4061929190C0010B775 /* CoreGraphics.framework in Frameworks */,
+				C9C0B4081929190C0010B775 /* UIKit.framework in Frameworks */,
+				C9C0B4041929190C0010B775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0B41E1929190C0010B775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0B4231929190C0010B775 /* XCTest.framework in Frameworks */,
+				C9C0B4251929190C0010B775 /* UIKit.framework in Frameworks */,
+				C9C0B4241929190C0010B775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B0DE98192921770097E2E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DE94192921730097E2E5 /* Miner.h */,
+				C9B0DE95192921730097E2E5 /* Miner.m */,
+				330716C76B6DEF2BA2C4C2C4 /* Profile.m */,
+				33071F0BA03CA30A59A7987F /* Profile.h */,
+				330716767FE6BCC96173A1FD /* Block.m */,
+				330715619457E10AB1DA226D /* Block.h */,
+				330719070CD65AD01FD8638B /* StatSheet.m */,
+				3307196C19A981E980CDD384 /* StatSheet.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C9B0DE9D192927CE0097E2E5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DE99192927CA0097E2E5 /* ApiHelper.h */,
+				C9B0DE9A192927CA0097E2E5 /* ApiHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C9B0DEA419293ADF0097E2E5 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DEA019293ADC0097E2E5 /* ResourceProvider.h */,
+				C9B0DEA119293ADC0097E2E5 /* ResourceProvider.m */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		C9B0DEA519293C4E0097E2E5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DEAA19293CAA0097E2E5 /* UrlUtils.h */,
+				C9B0DEAB19293CAA0097E2E5 /* UrlUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C9B0DEAE19294D660097E2E5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0B4181929190C0010B775 /* BMMinersViewController.h */,
+				C9C0B4191929190C0010B775 /* BMMinersViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9B0DEB319294E6A0097E2E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DEAF19294E650097E2E5 /* BMMinerCell.h */,
+				C9B0DEB019294E650097E2E5 /* BMMinerCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C9C0B3F71929190C0010B775 = {
+			isa = PBXGroup;
+			children = (
+				C9C0B4091929190C0010B775 /* bitminer */,
+				C9C0B4281929190C0010B775 /* bitminerTests */,
+				C9C0B4021929190C0010B775 /* Frameworks */,
+				C9C0B4011929190C0010B775 /* Products */,
+				9DABDAC89E8D4B8792E8A4A3 /* Pods-bitminer.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C0B4011929190C0010B775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0B4001929190C0010B775 /* bitminer.app */,
+				C9C0B4211929190C0010B775 /* bitminerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C0B4021929190C0010B775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DE9E192929750097E2E5 /* libPods-bitminer.a */,
+				C9C0B4031929190C0010B775 /* Foundation.framework */,
+				C9C0B4051929190C0010B775 /* CoreGraphics.framework */,
+				C9C0B4071929190C0010B775 /* UIKit.framework */,
+				C9C0B4221929190C0010B775 /* XCTest.framework */,
+				EB334F3723A24B468BDDF061 /* libPods-bitminer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C0B4091929190C0010B775 /* bitminer */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0B4121929190C0010B775 /* BMAppDelegate.h */,
+				C9C0B4131929190C0010B775 /* BMAppDelegate.m */,
+				C9C0B4151929190C0010B775 /* Main.storyboard */,
+				C9B0DEAE19294D660097E2E5 /* View Controllers */,
+				C9C0B41B1929190C0010B775 /* Images.xcassets */,
+				C9C0B40A1929190C0010B775 /* Supporting Files */,
+				C9B0DE98192921770097E2E5 /* Models */,
+				C9B0DE9D192927CE0097E2E5 /* Helpers */,
+				C9B0DEA419293ADF0097E2E5 /* Providers */,
+				C9B0DEA519293C4E0097E2E5 /* Utils */,
+				C9B0DEB319294E6A0097E2E5 /* Cells */,
+			);
+			path = bitminer;
+			sourceTree = "<group>";
+		};
+		C9C0B40A1929190C0010B775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B0DEB4192950370097E2E5 /* AppConstants.h */,
+				C9C0B40B1929190C0010B775 /* bitminer-Info.plist */,
+				C9C0B40C1929190C0010B775 /* InfoPlist.strings */,
+				C9C0B40F1929190C0010B775 /* main.m */,
+				C9C0B4111929190C0010B775 /* bitminer-Prefix.pch */,
+				33071E4A7D47963E3841A0E3 /* bitminer-Settings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C0B4281929190C0010B775 /* bitminerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0B42E1929190C0010B775 /* bitminerTests.m */,
+				C9C0B4291929190C0010B775 /* Supporting Files */,
+			);
+			path = bitminerTests;
+			sourceTree = "<group>";
+		};
+		C9C0B4291929190C0010B775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0B42A1929190C0010B775 /* bitminerTests-Info.plist */,
+				C9C0B42B1929190C0010B775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C0B3FF1929190C0010B775 /* bitminer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0B4321929190C0010B775 /* Build configuration list for PBXNativeTarget "bitminer" */;
+			buildPhases = (
+				3290E5A03031409F8280361C /* Check Pods Manifest.lock */,
+				C9C0B3FC1929190C0010B775 /* Sources */,
+				C9C0B3FD1929190C0010B775 /* Frameworks */,
+				C9C0B3FE1929190C0010B775 /* Resources */,
+				A6739619904247D49E046187 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitminer;
+			productName = bitminer;
+			productReference = C9C0B4001929190C0010B775 /* bitminer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C0B4201929190C0010B775 /* bitminerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C0B4351929190C0010B775 /* Build configuration list for PBXNativeTarget "bitminerTests" */;
+			buildPhases = (
+				C9C0B41D1929190C0010B775 /* Sources */,
+				C9C0B41E1929190C0010B775 /* Frameworks */,
+				C9C0B41F1929190C0010B775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C0B4271929190C0010B775 /* PBXTargetDependency */,
+			);
+			name = bitminerTests;
+			productName = bitminerTests;
+			productReference = C9C0B4211929190C0010B775 /* bitminerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C0B3F81929190C0010B775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Braindump Relief";
+				TargetAttributes = {
+					C9C0B3FF1929190C0010B775 = {
+						DevelopmentTeam = QF46LNU32C;
+					};
+					C9C0B4201929190C0010B775 = {
+						TestTargetID = C9C0B3FF1929190C0010B775;
+					};
+				};
+			};
+			buildConfigurationList = C9C0B3FB1929190C0010B775 /* Build configuration list for PBXProject "bitminer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C0B3F71929190C0010B775;
+			productRefGroup = C9C0B4011929190C0010B775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C0B3FF1929190C0010B775 /* bitminer */,
+				C9C0B4201929190C0010B775 /* bitminerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C0B3FE1929190C0010B775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0B41C1929190C0010B775 /* Images.xcassets in Resources */,
+				C9C0B40E1929190C0010B775 /* InfoPlist.strings in Resources */,
+				C9C0B4171929190C0010B775 /* Main.storyboard in Resources */,
+				33071DDAD5DC86424362D376 /* bitminer-Settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0B41F1929190C0010B775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C0B42D1929190C0010B775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3290E5A03031409F8280361C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6739619904247D49E046187 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-bitminer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C0B3FC1929190C0010B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B0DE9B192927CA0097E2E5 /* ApiHelper.m in Sources */,
+				C9C0B41A1929190C0010B775 /* BMMinersViewController.m in Sources */,
+				C9B0DE96192921730097E2E5 /* Miner.m in Sources */,
+				C9C0B4101929190C0010B775 /* main.m in Sources */,
+				C9C0B4141929190C0010B775 /* BMAppDelegate.m in Sources */,
+				33071C39D5FB4DF60450754F /* Profile.m in Sources */,
+				C9B0DEB119294E650097E2E5 /* BMMinerCell.m in Sources */,
+				C9B0DEA219293ADC0097E2E5 /* ResourceProvider.m in Sources */,
+				33071E10C4015195ED69266F /* Block.m in Sources */,
+				330717F92A9B312399420B0D /* StatSheet.m in Sources */,
+				C9B0DEAC19293CAA0097E2E5 /* UrlUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C0B41D1929190C0010B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B0DE9C192927CA0097E2E5 /* ApiHelper.m in Sources */,
+				C9B0DEAD19293CAA0097E2E5 /* UrlUtils.m in Sources */,
+				C9C0B42F1929190C0010B775 /* bitminerTests.m in Sources */,
+				C9B0DE97192921730097E2E5 /* Miner.m in Sources */,
+				33071578A0B91B88D396C78A /* Profile.m in Sources */,
+				33071D7081ADA095BBB76AD5 /* Block.m in Sources */,
+				C9B0DEB219294E650097E2E5 /* BMMinerCell.m in Sources */,
+				3307191AE3F65AD9353F2D35 /* StatSheet.m in Sources */,
+				C9B0DEA319293ADC0097E2E5 /* ResourceProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C0B4271929190C0010B775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C0B3FF1929190C0010B775 /* bitminer */;
+			targetProxy = C9C0B4261929190C0010B775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C0B40C1929190C0010B775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0B40D1929190C0010B775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9C0B4151929190C0010B775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0B4161929190C0010B775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C0B42B1929190C0010B775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C0B42C1929190C0010B775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C0B4301929190C0010B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9C0B4311929190C0010B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C0B4331929190C0010B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DABDAC89E8D4B8792E8A4A3 /* Pods-bitminer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = BitMinerIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitminer/bitminer-Prefix.pch";
+				INFOPLIST_FILE = "bitminer/bitminer-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D8AF28FF-7057-4E36-B787-934AA0AA8558";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9C0B4341929190C0010B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DABDAC89E8D4B8792E8A4A3 /* Pods-bitminer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = BitMinerIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matthew Zimmer (QF46LNU32C)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitminer/bitminer-Prefix.pch";
+				INFOPLIST_FILE = "bitminer/bitminer-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0FAE36B5-63F2-42F0-BD2A-D8966C72A707";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9C0B4361929190C0010B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitminer.app/bitminer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitminer/bitminer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bitminerTests/bitminerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9C0B4371929190C0010B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitminer.app/bitminer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitminer/bitminer-Prefix.pch";
+				INFOPLIST_FILE = "bitminerTests/bitminerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C0B3FB1929190C0010B775 /* Build configuration list for PBXProject "bitminer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0B4301929190C0010B775 /* Debug */,
+				C9C0B4311929190C0010B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0B4321929190C0010B775 /* Build configuration list for PBXNativeTarget "bitminer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0B4331929190C0010B775 /* Debug */,
+				C9C0B4341929190C0010B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C0B4351929190C0010B775 /* Build configuration list for PBXNativeTarget "bitminerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C0B4361929190C0010B775 /* Debug */,
+				C9C0B4371929190C0010B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C0B3F81929190C0010B775 /* Project object */;
+}

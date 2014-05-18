@@ -1,0 +1,20 @@
+.h4 Mining Stats
+.field
+  = f.label :blocks_mined
+  = f.text_field :blocks_mined, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+
+.field
+  = f.label 'Time between blocks (minutes)'
+  = f.text_field :time_between_blocks, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+
+.field
+  = f.label :bitcoins_mined
+  = f.text_field :bitcoins_mined, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+
+.field
+  = f.label :total_transaction_fees
+  = f.text_field :total_transaction_fees, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+
+.field
+  = f.label :number_of_transactions
+  = f.text_field :number_of_transactions, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }

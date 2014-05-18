@@ -1,0 +1,23 @@
+development:
+  amazon:
+    bucket: bit-miner-dev
+    key: 	AKIAIDRFGYEF46QLCT7Q
+    secret: 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
+
+test:
+  amazon:
+    bucket: bit-miner-dev
+    key: 	AKIAIDRFGYEF46QLCT7Q
+    secret: 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
+
+staging:
+  amazon:
+    bucket: bit-miner
+    key: 	AKIAIDRFGYEF46QLCT7Q
+    secret: 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
+
+production:
+  amazon:
+    bucket: bit-miner
+    key: 	AKIAIDRFGYEF46QLCT7Q
+    secret: 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

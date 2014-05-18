@@ -1,0 +1,27 @@
+= nested_form_for [@miner], html: { multipart: true } do |f|
+  - if @miner.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@miner.errors.count, "error")} prohibited this miner from being saved:"
+      %ul
+        - @miner.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field
+    = f.label :email
+    = f.text_field :email, { maxlength: 50, placeholder: 'ex: miner@bitcoin.btc', style: 'width: 350px;' }
+
+  .field
+    = f.fields_for :profile do |builder|
+      = render 'profile_fields', f: builder
+
+  .field
+    = f.fields_for :stat_sheet do |builder|
+      = render 'stat_sheet_fields', f: builder
+
+  .field
+    = f.fields_for :blocks do |builder|
+      = render 'block_fields', f: builder
+    = link_to_add_fields ' Add Block', f, :blocks, class: 'icon-plus btn btn-success'
+
+  .actions
+    = f.submit 'Save'
