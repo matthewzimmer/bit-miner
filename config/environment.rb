@@ -2,10 +2,17 @@
 require File.expand_path('../application', __FILE__)
 
 require 'yaml'
-AUTH = HashWithIndifferentAccess.new(YAML.load_file(Rails.root.join('config', 'auth.yml')))[Rails.env]
-ENV['AWS_BUCKET'] = AUTH[:amazon][:bucket]
-ENV['AWS_ACCESS_KEY_ID'] = AUTH[:amazon][:key]
-ENV['AWS_SECRET_ACCESS_KEY'] = AUTH[:amazon][:secret]
+#AUTH = HashWithIndifferentAccess.new(YAML.load_file(Rails.root.join('config', 'auth.yml')))[Rails.env]
+#ENV['AWS_BUCKET'] = AUTH[:amazon][:bucket]
+#ENV['AWS_ACCESS_KEY_ID'] = AUTH[:amazon][:key]
+#ENV['AWS_SECRET_ACCESS_KEY'] = AUTH[:amazon][:secret]
+
+AUTH = {}
+AUTH[:amazon] = {
+		bucket: ENV['AWS_BUCKET'],
+    key: ENV['AWS_ACCESS_KEY_ID'],
+    secret: ENV['AWS_SECRET_ACCESS_KEY']
+}
 
 PAPERCLIP_OPTIONS = {
 		:default_url => 'http://bit-miner.herokuapp.com/avatars/medium/missing.png',
