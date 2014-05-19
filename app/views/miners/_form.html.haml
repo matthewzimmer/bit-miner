@@ -1,4 +1,4 @@
-= nested_form_for [@miner], html: { multipart: true } do |f|
+= nested_form_for [@miner], html: { multipart: true, role: 'form' } do |f|
   - if @miner.errors.any?
     #error_explanation
       %h2= "#{pluralize(@miner.errors.count, "error")} prohibited this miner from being saved:"
@@ -6,22 +6,28 @@
         - @miner.errors.full_messages.each do |msg|
           %li= msg
 
-  .field
+  .form-group
     = f.label :email
-    = f.text_field :email, { maxlength: 50, placeholder: 'ex: miner@bitcoin.btc', style: 'width: 350px;' }
+    = f.text_field :email, { maxlength: 50, placeholder: 'ex: miner@bitcoin.btc', class: 'form-control' }
 
-  .field
-    = f.fields_for :profile do |builder|
-      = render 'profile_fields', f: builder
+  = f.fields_for :profile do |builder|
+    = render 'profile_fields', f: builder
 
-  .field
-    = f.fields_for :stat_sheet do |builder|
-      = render 'stat_sheet_fields', f: builder
+  %hr
 
-  .field
-    = f.fields_for :blocks do |builder|
-      = render 'block_fields', f: builder
-    = link_to_add_fields ' Add Block', f, :blocks, class: 'icon-plus btn btn-success'
+  = f.fields_for :stat_sheet do |builder|
+    = render 'stat_sheet_fields', f: builder
 
-  .actions
-    = f.submit 'Save'
+  %hr
+
+  %h4 Mined Blocks
+
+  = f.fields_for :blocks do |builder|
+    = render 'block_fields', f: builder
+  = link_to_add_fields ' Add Block', f, :blocks, class: 'icon-plus btn btn-success'
+
+  %br
+  %br
+
+  .actions.well.well-sm
+    = f.submit 'Save', { class: 'btn btn-primary' }

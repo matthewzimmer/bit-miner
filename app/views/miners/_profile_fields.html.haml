@@ -1,26 +1,28 @@
 
-.field
+.form-group
   = f.label :nickname
-  = f.text_field :nickname, { maxlength: 50, style: 'width: 350px;', placeholder: 'A unique handle identifying you within the community.' }
+  = f.text_field :nickname, { class: 'form-control', maxlength: 50, placeholder: 'A unique handle identifying you within the community.' }
 
-.field
+.form-group
   = f.label :first_name
-  = f.text_field :first_name, { maxlength: 50, style: 'width: 350px;' }
+  = f.text_field :first_name, { class: 'form-control', maxlength: 50 }
 
-.field
+.form-group
   = f.label :last_name
-  = f.text_field :last_name, { maxlength: 50, style: 'width: 350px;' }
+  = f.text_field :last_name, { class: 'form-control', maxlength: 50 }
 
-.field
-  = image_tag f.object.avatar.url(:original), { width: 30 }
+.form-group
+  %label Avatar
   %br
+  = image_tag f.object.avatar.url(:original), { width: 60, class: 'img-thumbnail' }
   = f.file_field :avatar
-  %p Add an avatar to your profile.
+  %p.help-block Add an avatar to your profile.
 
-.field
+.form-group
   = f.label :bio
-  = f.text_area :bio, { rows: 10, maxlength: 256, style: 'width: 350px;', placeholder: 'A brief description of yourself in 255 characters or less.' }
+  = f.text_area :bio, { class: 'form-control', rows: 10, maxlength: 256, placeholder: 'A brief description of yourself in 255 characters or less.' }
 
-.field
+.form-group
   = f.label :public_key
-  = f.text_area :public_key, { rows: 20, maxlength: 512, style: 'width: 350px;', placeholder: 'Type "pbcopy < ~/.ssh/id_rsa.pub" in a terminal and paste that value here.' }
+  = f.text_area :public_key, { class: 'form-control', rows: 15, maxlength: 512, placeholder: 'Type "pbcopy < ~/.ssh/id_rsa.pub" in a terminal and paste that value here.' }
+  %p.help-block Type "pbcopy < ~/.ssh/id_rsa.pub" in a terminal and paste that value here.

@@ -1,0 +1,25 @@
+@import 'bootstrap-custom';
+
+// bootstrap header bar padding fix
+body {
+	padding-top: 50px;
+}
+
+/* Override Rail's default error calls with Bootstrap 3 */
+.field_with_errors {
+	@extend .has-error;
+}
+
+// Tables
+
+.table > tbody > tr > td {
+	vertical-align: middle;
+}
+
+// Responsive
+
+@media screen and (max-width: 767px) {
+	.table-responsive {
+		padding-bottom: 50px;
+	}
+}

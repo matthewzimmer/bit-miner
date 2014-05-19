@@ -1,20 +1,28 @@
-.h4 Mining Stats
-.field
+%h4 Mining Stats
+.form-group
   = f.label :blocks_mined
-  = f.text_field :blocks_mined, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+  = f.text_field :blocks_mined, { class: 'form-control', maxlength: 50, placeholder: '0' }
 
-.field
-  = f.label 'Time between blocks (minutes)'
-  = f.text_field :time_between_blocks, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+.form-group
+  = f.label 'Time between blocks'
+  %span.input-group
+    = f.text_field :time_between_blocks, { class: 'form-control', maxlength: 50, placeholder: '0' }
+    %span.input-group-addon minutes
 
-.field
+.form-group
   = f.label :bitcoins_mined
-  = f.text_field :bitcoins_mined, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+  %span.input-group
+    %span.input-group-addon
+      BTC
+    = f.text_field :bitcoins_mined, { class: 'form-control', placeholder: '0' }
 
-.field
+.form-group
   = f.label :total_transaction_fees
-  = f.text_field :total_transaction_fees, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
 
-.field
+  %span.input-group
+    %span.input-group-addon $
+    = f.text_field :total_transaction_fees, { class: 'form-control', maxlength: 50, placeholder: '0' }
+
+.form-group
   = f.label :number_of_transactions
-  = f.text_field :number_of_transactions, { maxlength: 50, style: 'width: 350px;', placeholder: '0' }
+  = f.text_field :number_of_transactions, { class: 'form-control', maxlength: 50, placeholder: '0' }

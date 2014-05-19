@@ -1,58 +1,87 @@
 %p#notice= notice
 
-%p
-  = image_tag @miner.profile.avatar.url(:thumb), { width: 50 }
+.row
+  .col-sm-6.col-md-3
+    %h4
+      Profile
 
-%p
-  %b Nickname:
-  = @miner.profile.nickname
-
-%p
-  %b Email:
-  = @miner.email
-
-%p
-  %b Full name:
-  = @miner.profile.full_name
-
-- unless @miner.profile.bio.nil? || @miner.profile.bio.empty?
-  %p
-    %b Bio:
-    = @miner.profile.bio
-
-%h4
-  Mining Stats
-
-.stat-sheet.container
-  .row
-    .span2
-      = @miner.stat_sheet.blocks_mined
-      blocks mined
-    .span2
-      = @miner.stat_sheet.time_between_blocks
-      minutes between blocks mined
-    .span2
-      = number_to_currency(@miner.stat_sheet.bitcoins_mined, unit: 'BTC', format: '%n %u')
-      Bitcoins mined
-    .span2
-      = number_to_currency(@miner.stat_sheet.total_transaction_fees)
-      total transaction fees rewarded
-    .span2
-      = @miner.stat_sheet.number_of_transactions
-      total number of transactions
-
-%h4
-  Mined Blocks
-
-- @miner.blocks.each do |block|
-  .block.container
     .row
-      .span2
-        = block.hash_curr_block
-      .span2
-        = number_to_currency(block.rewarded_bitcoins, unit: 'BTC', format: '%n %u')
-      .span2
-        = number_to_currency(block.rewarded_transaction_fee)
+      .col-sm-12.col-md-12
+        .thumbnail
+          = image_tag @miner.profile.avatar.url(:original), { width: 300, class: 'img-thumbnail' }
+
+          .caption
+            %h3
+              = @miner.profile.nickname
+            %div
+              = @miner.profile.full_name
+            %div
+              = @miner.email
+            %br
+            - unless @miner.profile.bio.nil? || @miner.profile.bio.empty?
+              %p
+                = @miner.profile.bio
+
+
+  .col-sm-6.col-md-4
+    %h4
+      Mining Stats
+
+    .row
+      .col-sm-12.col-md-12
+        .thumbnail
+          .stat-sheet.container-fluid
+            .row
+              .col-sm-12
+                %strong
+                  = @miner.stat_sheet.blocks_mined
+                blocks mined
+            .row
+              .col-sm-12
+                %strong
+                  = @miner.stat_sheet.time_between_blocks
+                minutes between blocks mined
+            .row
+              .col-sm-12
+                %strong
+                  = number_to_currency(@miner.stat_sheet.bitcoins_mined, unit: 'BTC', format: '%n %u')
+                Bitcoins mined
+            .row
+              .col-sm-12
+                %strong
+                  = number_to_currency(@miner.stat_sheet.total_transaction_fees)
+                total transaction fees rewarded
+            .row
+              .col-sm-12
+                %strong
+                  = @miner.stat_sheet.number_of_transactions
+                total number of transactions
+
+
+%hr
+
+.row
+  .container.clearfix
+    %h4
+      Mined Blocks
+
+    .table-responsive
+      %table.table.table-condensed.table-striped.table-miners
+        %tr
+          %th Block Hash
+          %th Bitcoins Rewarded
+          %th Transaction Fees Rewarded
+
+
+        - @miner.blocks.each do |block|
+          %tr
+            %td.col-sm-2
+              = block.hash_curr_block
+            %td.col-sm-2
+              = number_to_currency(block.rewarded_bitcoins, unit: 'BTC', format: '%n %u')
+            %td.col-sm-2
+              = number_to_currency(block.rewarded_transaction_fee)
+
 
 = link_to 'Edit', edit_miner_path(@miner)
 \|
