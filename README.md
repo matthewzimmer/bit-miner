@@ -14,7 +14,7 @@ an analogy of gold miners who dig gold out of the ground and thus 'discover' new
 coins, with a similar kind of discovery occurring with a successful hash to create new Bitcoins.
 
 
-## Bit Miner Service Architecture
+## Service Architecture
 
 **Note:** Click on each image to view it at full scale.
 
