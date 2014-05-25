@@ -29,6 +29,6 @@ There are two client interfaces found inside of this project. The [primary clien
 create, update and delete Miner profiles. A secondary client is also baked inside of the [wrappers/ios/bitminer](https://github.com/matthewzimmer/bit-miner/tree/master/wrappers/ios/bitminer "iOS App") directory. It is
 an iOS application allowing you to view Miners' avatar, nickname and mining statistics.
 
-If you would like to run the app on an iPhone, please submit a request to join my "BitMiner" TestFlight team and I will
-add your device. Alternatively, download the [BitMiner_1_0_0.ipa](https://github.com/matthewzimmer/bit-miner/raw/master/wrappers/ios/builds/BitMiner_1_0_0.ipa "BitMiner_1_0_0.ipa") build in the [wrappers/ios/builds](https://github.com/matthewzimmer/bit-miner/tree/master/wrappers/ios/builds) directory and resign the archive with your
-provisioning profile.
+If you would like to run the app on an iPhone, please submit a request to [join my "BitMiner" TestFlight team](http://tflig.ht/1jcM5Bi) and I will
+add your device. Alternatively, download the [BitMiner_1_0_0.ipa](https://github.com/matthewzimmer/bit-miner/raw/master/wrappers/ios/builds/BitMiner_1_0_0.ipa "BitMiner_1_0_0.ipa") build in the [wrappers/ios/builds](https://github.com/matthewzimmer/bit-miner/tree/master/wrappers/ios/builds) directory and [resign the archive with your
+provisioning profile](https://gist.github.com/renexu/5597853).
