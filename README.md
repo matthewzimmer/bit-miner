@@ -19,17 +19,17 @@ coins, with a similar kind of discovery occurring with a successful hash to crea
 Bit Miner Service Architecture
 ==============================
 
-![Alt text](https://bit-miner.herokuapp.com/images/soa.jpg)
+<img src="https://bit-miner.herokuapp.com/images/soa.jpg" alt="Service Architecture" width="200" style="width:200px;"/>
 
-![Alt text](https://bit-miner.herokuapp.com/images/uml.jpg)
+<img src="https://bit-miner.herokuapp.com/images/uml.png" alt="Model Architecture" width="200" style="width:200px;"/>
 
 Client Interfaces
 =================
 
-There are two client interfaces found inside of this project. The primary interface is located at
-https://bit-miner.herokuapp.com/miners allowing you to view, create, update and delete Miner profiles. A secondary
-client is also baked inside of the wrappers/ios directory. It is an iOS application allowing you to view Miners' mining
-statistics.
+There are two client interfaces found inside of this project. The
+[primary client interface](https://bit-miner.herokuapp.com/miners "Primary Client Interface") allows you to view,
+create, update and delete Miner profiles. A secondary client is also baked inside of the wrappers/ios directory. It is
+an iOS application allowing you to view Miners' mining statistics.
 
 If you would like to run the app on an iPhone, please submit a request to join my "BitMiner" TestFlight team here:
 
