@@ -19,9 +19,9 @@ coins, with a similar kind of discovery occurring with a successful hash to crea
 Bit Miner Service Architecture
 ==============================
 
-<img src="https://bit-miner.herokuapp.com/images/soa.jpg" alt="Service Architecture" width="200" style="width:200px;"/>
+<img src="https://bit-miner.herokuapp.com/images/soa.jpg" alt="Service Architecture" width="800" style="width:800px;"/>
 
-<img src="https://bit-miner.herokuapp.com/images/uml.png" alt="Model Architecture" width="200" style="width:200px;"/>
+<img src="https://bit-miner.herokuapp.com/images/uml.png" alt="Model Architecture" width="800" style="width:800px;"/>
 
 Client Interfaces
 =================
